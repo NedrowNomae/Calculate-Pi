@@ -1,7 +1,7 @@
 """
 calculatepi.py
 Author: Eamon
-Credit: <list sources used, if any>
+Credit: yes
 Assignment:
 
 Write and submit a Python program that computes an approximate value of π by calculating the following sum:
