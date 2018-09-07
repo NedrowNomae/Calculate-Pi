@@ -1,6 +1,6 @@
 """
 calculatepi.py
-Author: <your name here>
+Author: Eamon
 Credit: <list sources used, if any>
 Assignment:
 
@@ -21,3 +21,9 @@ The approximate value of pi is 3.1315929
 Note: remember that the printed value of pi will be an estimate!
 
 """
+import math
+n = int(input("How many terms should I use?"))
+d = int(input("How many decimals would you like?"))
+pi = 4.0*sum([((-1.0)**k)/(2*k+1) for k in range(0,n)])
+print("The approximate value of pi is {0}".format(round(pi, d)))
+print("(The true value of pi is {0})".format(round(math.pi, d)))
